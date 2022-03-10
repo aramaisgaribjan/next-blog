@@ -5,7 +5,7 @@ export default function Home({ posts }) {
   return (
     <>
       <Wrapper>
-        Í<h1>My Blog</h1>
+        <h1>My Blog</h1>
         <p>Lorem Ipsum…</p>
         <h2>Posts</h2>
         <PostList posts={posts} />
