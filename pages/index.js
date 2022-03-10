@@ -24,6 +24,6 @@ export async function getStaticProps() {
 }
 
 const Wrapper = styled.section`
-  padding: 4em;
-  background: papayawhip;
+  margin: auto;
+  background-color: grey;
 `;
