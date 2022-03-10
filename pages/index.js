@@ -4,10 +4,12 @@ import { getSortedPostsData } from "../lib/posts";
 export default function Home({ posts }) {
   return (
     <>
-      <h1>My Blog</h1>
-      <p>Lorem Ipsum…</p>
-      <h2>Posts</h2>
-      <PostList posts={posts} />
+      <Wrapper>
+        Í<h1>My Blog</h1>
+        <p>Lorem Ipsum…</p>
+        <h2>Posts</h2>
+        <PostList posts={posts} />
+      </Wrapper>
     </>
   );
 }
@@ -20,3 +22,8 @@ export async function getStaticProps() {
     },
   };
 }
+
+const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+`;
