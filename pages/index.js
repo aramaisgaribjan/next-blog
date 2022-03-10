@@ -1,5 +1,6 @@
 import { PostList } from "../components/PostList/PostList";
 import { getSortedPostsData } from "../lib/posts";
+import styled from "styled-components";
 
 export default function Home({ posts }) {
   return (
